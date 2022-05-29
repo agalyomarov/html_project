@@ -1,265 +1,263 @@
 <?xml version="1.0" encoding="utf-8"?>
-<knihovna 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="schema.xsd">
-    <kniha id="0" druh_textu="komiks">
-        <nazev>
-            <cesky>Chci uspět v IT</cesky>
-            <original>Chci uspět v IT</original>
-        </nazev>
-        <autor narodnost="CZ" rok_narozeni="1953">
-            <krestni_jmeno>Martin</krestni_jmeno>
-            <prijmeni>Knotek</prijmeni>            
-        </autor>
-        <rok_vydani>2014</rok_vydani>
-        <zanr>Literarni fikce</zanr>
-        <hodnoceni>4.36</hodnoceni>
-        <pocet_stran>96</pocet_stran>
-        <popis>Rádi byste si vybudovali úspěšnou kariéru v oblasti IT, ale nevíte, jak začít? Chcete vědět, jak vypadá typické prostředí IT, s čím se setkáte a co budete potřebovat za znalosti?
-Autor vám v této publikaci nastíní, jak to v IT světě chodí, a poskytne doporučení pro výběr studia a podklady pro výběr směru, kterým se ve své kariéře můžete vydat. Celá publikace je navíc psána velmi stručným, srozumitelným jazykem. Ihned na začátku knihy najdete to nejdůležitější: devět kroků vedoucí k úspěšné IT kariéře.
-        </popis>
+<knihovna xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
+  <kniha id="0" druh_textu="komiks">
+    <nazev>
+      <cesky>Chci uspět v IT</cesky>
+      <original>Chci uspět v IT</original>
+    </nazev>
+    <autor narodnost="CZ" rok_narozeni="1953">
+      <krestni_jmeno>Martin</krestni_jmeno>
+      <prijmeni>Knotek</prijmeni>
+    </autor>
+    <rok_vydani>2014</rok_vydani>
+    <zanr>Literarni fikce</zanr>
+    <hodnoceni>4.36</hodnoceni>
+    <pocet_stran>96</pocet_stran>
+    <popis>Rádi byste si vybudovali úspěšnou kariéru v oblasti IT, ale nevíte, jak začít? Chcete vědět, jak vypadá typické prostředí IT, s čím se setkáte a co budete potřebovat za znalosti?
+      Autor vám v této publikaci nastíní, jak to v IT světě chodí, a poskytne doporučení pro výběr studia a podklady pro výběr směru, kterým se ve své kariéře můžete vydat. Celá publikace je navíc psána velmi stručným, srozumitelným jazykem. Ihned na začátku knihy najdete to nejdůležitější: devět kroků vedoucí k úspěšné IT kariéře.
+    </popis>
 
-    </kniha>
-    
-    <kniha id="1" druh_textu="próza">
-        <nazev>
-            <cesky>O počítačích převážně nevážně</cesky>
-            <original>O počítačích převážně nevážně</original>
-        </nazev>
-        <autor narodnost="CZ" rok_narozeni="1980">
-            <krestni_jmeno>Petr</krestni_jmeno>
-            <prijmeni>Kukal</prijmeni>
-        </autor>
-        <rok_vydani>2006</rok_vydani>
-        <zanr>Literarni fikce</zanr>
-        <hodnoceni>4.06</hodnoceni>
-        <pocet_stran>72</pocet_stran>
-        <popis> Knížka äO IT převážně nevážněô přináší dvě desítky fejetonů, které čerpají náměty z oblasti informačních a komunikačních technologií. Autor v nich s nadhledem a ironickou nadsázkou glosuje nejrůznější myšlenkové stereotypy, zlozvyky a drobná podivínství typická pro svět počítačů a komunitu lidí kolem nich.
-        </popis>
-    </kniha>
-    
-    <kniha id="2" druh_textu="drama">
-        <nazev>
-            <cesky>Hodnota a e-business</cesky>
-            <original>Hodnota a e-business</original>
-        </nazev>
-        <autor narodnost="CZ" rok_narozeni="1984">
-            <krestni_jmeno>Alena</krestni_jmeno>
-            <prijmeni>Klapalová</prijmeni>
-        </autor>
-        <rok_vydani>2011</rok_vydani>
-        <zanr>Literarni fikce</zanr>
-        <hodnoceni>3.74</hodnoceni>
-        <pocet_stran>180</pocet_stran>
-        <popis>Tato monografie si klade za cíl seznámit čtenáře s problematikou tvorby hodnoty s využitím prostředků informačních a komunikačních technologií v rámci vazeb se zákazníky a dodavateli.
-        </popis>
-    </kniha>
-    
-    <kniha id="3" druh_textu="drama">
-        <nazev>
-            <cesky>Manéž informačního věku</cesky>
-            <original>Manéž informačního věku</original>
-        </nazev>
-        <autor narodnost="CZ" rok_narozeni="1979" rok_umrti="1938">
-            <krestni_jmeno>Ivan</krestni_jmeno>
-            <prijmeni>Pilný</prijmeni>
-        </autor>
-        <rok_vydani>2014</rok_vydani>
-        <zanr>Literarni fikce</zanr>
-        <hodnoceni>3.87</hodnoceni>
-        <pocet_stran>232</pocet_stran>
-        <popis>Říká se, že žijeme v době informačního věku. Atributy připisované informačnímu věku bývají technologie, počítače, digitalizace, digitální dálnice, informace kdykoli, kdekoli, komukoli na dosah ruky. Jedná se však skutečně o informace, nebo jen o terabajty? 
-        </popis>
-    </kniha>
-    
-    <kniha id="4" druh_textu="poezie">
-        <nazev>
-            <cesky>Tyranie okamžiku</cesky>
-            <original>Tyranny of the moment</original>
-        </nazev>
-        <autor narodnost="N" rok_narozeni="1962">
-            <krestni_jmeno>Thomas Hylland</krestni_jmeno>
-            <prijmeni>Eriksen</prijmeni>
-        </autor>
-        <rok_vydani>2001</rok_vydani>
-        <zanr>Literarni fikce</zanr>
-        <hodnoceni>4.28</hodnoceni>
-        <pocet_stran>168</pocet_stran>
-        <popis>Také si lámete hlavu nad tím, proč musíte pořád odkládat zásadní a průlomové projekty, zatímco zvládat každodenní agendu se vám daří jen s nasazením všech sil?
-A koho by před čtvrtstoletím napadlo, že všechny úžasné technologie vynalezené k úspoře času povedou nezadržitelně k tomu, že budeme mít nevyvratitelný pocit, že času máme stále méně?
-Co rozumíme taylorizací rodinného života? Proč rychlý čas v konfrontaci s pomalým vždy vítězí? A co mají tyto jevy společného s tzv. vyhořením?
-Tyto otázky rozebírá Tyranie okamžiku - originální komentář odborníka v oboru sociální antropologie, formulovaný s vtipem a nadhledem. Nudit se nebude nikdo, kdo se zamýšlí nad zákonitostmi naší epochy a vývojem informační společnosti.
-        </popis>
-    </kniha>
-    
-    
-    <kniha id="5" druh_textu="poezie">
-        <nazev>
-            <cesky>Informační systémy a technologie</cesky>
-            <original>Informační systémy a technologie</original>
-        </nazev>
-        <autor narodnost="CZ" rok_narozeni="1969">
-            <krestni_jmeno>Jan</krestni_jmeno>
-            <prijmeni>Pour</prijmeni>
-        </autor>
-        <rok_vydani>2006</rok_vydani>
-        <zanr>Literarni fikce</zanr>
-        <hodnoceni>4.05</hodnoceni>
-        <pocet_stran>496</pocet_stran>
-        <popis>Aplikovaná informatika významně ovlivňuje úspěšnost podniku na trhu. Tato publikace proto odpovídá potřebě poskytnout manažerům, obchodníkům i pracovníkům administrativy komplexní pohled na aplikační potenciál současných informačních systémů a technologií.Orientuje se primárně na to, co informatika může nabídnout pro vlastní řízení firem, řízení jejich vztahů k obchodním partnerům, kde jsou její zdroje pro dynamizaci podnikového řízení a podnikatelských aktivit.</popis>
-        </kniha>
-    
-    <kniha id="6" druh_textu="próza">
-        <nazev>
-            <cesky>Psycho</cesky>
-            <original>Software Configuration Management</original>
-        </nazev>
-        <autor narodnost="US" rok_narozeni="1957">
-            <krestni_jmeno>Reidar</krestni_jmeno>
-            <prijmeni>Conradi</prijmeni>  
-        </autor>
-        <rok_vydani>1992</rok_vydani>
-        <zanr>Literarni fikce</zanr>
-        <hodnoceni>4.11</hodnoceni>
-        <pocet_stran>180</pocet_stran>
-        <popis>Klasický thriller, jenž proslavil Alfred Hitchcock svým filmem. Když před sebou Mary Craneová, která prchá poté, co ukradla čtyřicet tisíc dolarů, spatří uprostřed bouře Batesův motel, má pocit, že byla právě zachráněna. Pokoje jsou sice mírně zatuchlé, ale jinak čisté. Norman Bates, který motel vede, jí připadá jako příjemný muž. Byť možná trochu divný. Pak se ale Mary setkává s Normanovou matkou. A s velkým řeznickým nožem. Noční můra začíná.</popis>
-    </kniha>
-    
-    
-        
-    
-    
-    <kniha id="7" druh_textu="literatura faktu">
-        <nazev>
-            <cesky>Stručná historie času</cesky>
-            <original>A Brief History of Time</original>
-        </nazev>
-        <autor narodnost="GB" rok_narozeni="1942" rok_umrti="2018">
-            <krestni_jmeno>Stephen</krestni_jmeno>
-            <prijmeni>Hawking</prijmeni>
-        </autor>
-        <rok_vydani>2007</rok_vydani>
-        <zanr>Populárně naučné</zanr>
-        <hodnoceni>4.16</hodnoceni>
-       <pocet_stran>210</pocet_stran>
-        <popis>Populárně vědecká publikace anglického fyzika vysvětluje vznik a podstatu vesmíru, problematiku času a prostoru, teorii černých děr a další otázky.</popis>
-    </kniha>
-    
-    <kniha id="8" druh_textu="próza">
-        <nazev>
-            <cesky>Padesát odstínů šedi</cesky>
-            <original>Fifty Shades of Grey</original>
-        </nazev>
-        <autor narodnost="GB" rok_narozeni="1963">
-            <krestni_jmeno>E. L.</krestni_jmeno>
-            <prijmeni>James</prijmeni>
-        </autor>
-        <rok_vydani>2011</rok_vydani>
-        <zanr>Erotika</zanr>
-        <hodnoceni>3.66</hodnoceni>
-        <pocet_stran>325</pocet_stran>
-        <popis>Když se dvaadvacetiletá studentka literatury Anastasia vydává na pohovor s mladým podnikatelem Christianem Greyem, netuší, že potká muže, který jí změní život i hodnoty. Christian je pohledný, chytrý a… tajemný. Naivní a nevinná Anastasia si začíná uvědomovat, že přes jeho skrývaná tajemství jím začíná být úplně posedlá. Ale ani Christian není vůči její kráse, šarmu a charakteru imunní a připouští, že on po ní také touží – ovšem za vlastních, specifických podmínek…
-        </popis>   
-    </kniha>
-    
-    <kniha id="9" druh_textu="próza">
-        <nazev>
-            <cesky>1984</cesky>
-            <original>Nineteen Eighty-Four</original>
-        </nazev>
-        <autor narodnost="GB" rok_narozeni="1903" rok_umrti="1950">
-            <krestni_jmeno>George</krestni_jmeno>
-            <prijmeni>Orwell</prijmeni>
-        </autor>
-        <rok_vydani>1949</rok_vydani>
-        <zanr>Sci-fi</zanr>
-        <hodnoceni>4.17</hodnoceni>
-        <pocet_stran>280</pocet_stran>
-        <popis>1984, dnes již klasické dílo antiutopického žánru, je bezesporu jedním z nejpozoruhodnějších románů 20. století a brilantní analýzou všech totalitárních systémů. "Antiutopie" má i svého "antihrdinu": je jím Winston Smith, obyčejný, ne příliš statečný člověk, který si nepřeje nic světoborného: chce jen poznat skutečnou, ne zmanipulovanou podobu minulosti, věřit tomu, co vidí na vlastní oči a mít svobodu tvrdit, že dva a dva jsou čtyři. Tyto elementární nároky jsou však přímým ohrožením moci, postavené na lži, a proto je Winstonova vzpoura proti obludnému organismu, jehož je nepatrnou buňkou, předem odsouzená k nezdaru. Přesto mu autor vkládá do úst jistou naději, působivější o to, že vyslovenou v mučírně: "Nějak už vám to selže, něco vás zdolá. Život vás zdolá." Orwell napsal svůj román v roce 1947. Na rozdíl od mnohých v té době nepodlehl euforii poválečného optimismu vyhlídek na věčný mír, a jeho dílo je proto sugestivním obrazem politické perverze, kterou končí v dějinách každé revoluční hnutí.
-        </popis>   
-    </kniha>
-    
-    <kniha id="10" druh_textu="drama">
-        <nazev>
-            <cesky>Višňový sad</cesky>
-            <original>Višňovyj sad</original>
-        </nazev>
-        <autor narodnost="RU" rok_narozeni="1860" rok_umrti="1904">
-            <krestni_jmeno>Anton Pavlovič</krestni_jmeno>
-            <prijmeni>Čechov</prijmeni>
-        </autor>
-        <rok_vydani>1904</rok_vydani>
-        <zanr>Komedie</zanr>
-        <hodnoceni>3.67</hodnoceni>
-        <pocet_stran>80</pocet_stran>
-        <popis>Višňový sad má jednoduchou základní situaci: panství statkářky Raněvské je beznadějně zadluženo a nelze je zachránit. Buď musí být prodáno v dražbě nebo je možné získat daleko více peněz prodejem památného a krásného višňového sadu a jeho rozparcelováním na pozemky pro stavby letních sídel pro obyvatele města. 
-        </popis>   
-    </kniha>
-    
-    <kniha id="11" druh_textu="poezie">
-        <nazev>
-            <cesky>Květy zla</cesky>
-            <original>Les Fleurs du mal </original>
-        </nazev>
-        <autor narodnost="FR" rok_narozeni="1821" rok_umrti="1867">
-            <krestni_jmeno>Charles</krestni_jmeno>
-            <prijmeni>Baudelaire</prijmeni>
-        </autor>
-        <rok_vydani>1857</rok_vydani>
-        <zanr>Prokletí básníci</zanr>
-        <hodnoceni>4.26</hodnoceni>
-        <pocet_stran>380</pocet_stran>
-        <popis>Kniha obsahuje celkem šest částí, celkem 145 básní. Vůbec nejslavnější a nejrozsáhlejší z nich je 1. oddíl nazvaný Splín a ideál, tyto básně vypovídají o poslání, umění nebo o postavení umělce, hovoří také o ženách, které autor současně miloval i nenáviděl, protože ho přitahovaly i odpuzovaly, tak se v básních střídá milostná touha a krutá bezcitnost. 
-        </popis>   
-    </kniha>
-    
-    <kniha id="12" druh_textu="literatura faktu">
-        <nazev>
-            <cesky>Stručná historie času</cesky>
-            <original>A Brief History of Time</original>
-        </nazev>
-        <autor narodnost="GB" rok_narozeni="1942" rok_umrti="2018">
-            <krestni_jmeno>Stephen</krestni_jmeno>
-            <prijmeni>Hawking</prijmeni>
-        </autor>
-        <rok_vydani>2007</rok_vydani>
-        <zanr>Populárně naučné</zanr>
-        <hodnoceni>4.16</hodnoceni>
-       <pocet_stran>200</pocet_stran>
-        <popis>Populárně vědecká publikace anglického fyzika vysvětluje vznik a podstatu vesmíru, problematiku času a prostoru, teorii černých děr a další otázky.</popis>
-    </kniha>
-    
-    <kniha id="13" druh_textu="poezie">
-        <nazev>
-            <cesky>Informační systémy a technologie</cesky>
-            <original>Informační systémy a technologie</original>
-        </nazev>
-        <autor narodnost="CZ" rok_narozeni="1969">
-            <krestni_jmeno>Jan</krestni_jmeno>
-            <prijmeni>Pour</prijmeni>
-        </autor>
-        <rok_vydani>2006</rok_vydani>
-        <zanr>Literarni fikce</zanr>
-        <hodnoceni>4.05</hodnoceni>
-        <pocet_stran>496</pocet_stran>
-        <popis>Aplikovaná informatika významně ovlivňuje úspěšnost podniku na trhu. Tato publikace proto odpovídá potřebě poskytnout manažerům, obchodníkům i pracovníkům administrativy komplexní pohled na aplikační potenciál současných informačních systémů a technologií.Orientuje se primárně na to, co informatika může nabídnout pro vlastní řízení firem, řízení jejich vztahů k obchodním partnerům, kde jsou její zdroje pro dynamizaci podnikového řízení a podnikatelských aktivit.</popis>
-        </kniha>
-    
-    <kniha id="14" druh_textu="drama">
-        <nazev>
-            <cesky>Manéž informačního věku</cesky>
-            <original>Manéž informačního věku</original>
-        </nazev>
-        <autor narodnost="CZ" rok_narozeni="1979" rok_umrti="1938">
-            <krestni_jmeno>Ivan</krestni_jmeno>
-            <prijmeni>Pilný</prijmeni>
-        </autor>
-        <rok_vydani>2014</rok_vydani>
-        <zanr>Literarni fikce</zanr>
-        <hodnoceni>3.87</hodnoceni>
-        <pocet_stran>232</pocet_stran>
-        <popis>Říká se, že žijeme v době informačního věku. Atributy připisované informačnímu věku bývají technologie, počítače, digitalizace, digitální dálnice, informace kdykoli, kdekoli, komukoli na dosah ruky. Jedná se však skutečně o informace, nebo jen o terabajty? 
-        </popis>
-    </kniha>
-    
- </knihovna>   
+  </kniha>
+
+  <kniha id="1" druh_textu="próza">
+    <nazev>
+      <cesky>O počítačích převážně nevážně</cesky>
+      <original>O počítačích převážně nevážně</original>
+    </nazev>
+    <autor narodnost="CZ" rok_narozeni="1980">
+      <krestni_jmeno>Petr</krestni_jmeno>
+      <prijmeni>Kukal</prijmeni>
+    </autor>
+    <rok_vydani>2006</rok_vydani>
+    <zanr>Literarni fikce</zanr>
+    <hodnoceni>4.06</hodnoceni>
+    <pocet_stran>72</pocet_stran>
+    <popis> Knížka äO IT převážně nevážněô přináší dvě desítky fejetonů, které čerpají náměty z oblasti informačních a komunikačních technologií. Autor v nich s nadhledem a ironickou nadsázkou glosuje nejrůznější myšlenkové stereotypy, zlozvyky a drobná podivínství typická pro svět počítačů a komunitu lidí kolem nich.
+    </popis>
+  </kniha>
+
+  <kniha id="2" druh_textu="drama">
+    <nazev>
+      <cesky>Hodnota a e-business</cesky>
+      <original>Hodnota a e-business</original>
+    </nazev>
+    <autor narodnost="CZ" rok_narozeni="1984">
+      <krestni_jmeno>Alena</krestni_jmeno>
+      <prijmeni>Klapalová</prijmeni>
+    </autor>
+    <rok_vydani>2011</rok_vydani>
+    <zanr>Literarni fikce</zanr>
+    <hodnoceni>3.74</hodnoceni>
+    <pocet_stran>180</pocet_stran>
+    <popis>Tato monografie si klade za cíl seznámit čtenáře s problematikou tvorby hodnoty s využitím prostředků informačních a komunikačních technologií v rámci vazeb se zákazníky a dodavateli.
+    </popis>
+  </kniha>
+
+  <kniha id="3" druh_textu="drama">
+    <nazev>
+      <cesky>Manéž informačního věku</cesky>
+      <original>Manéž informačního věku</original>
+    </nazev>
+    <autor narodnost="CZ" rok_narozeni="1979" rok_umrti="1938">
+      <krestni_jmeno>Ivan</krestni_jmeno>
+      <prijmeni>Pilný</prijmeni>
+    </autor>
+    <rok_vydani>2014</rok_vydani>
+    <zanr>Literarni fikce</zanr>
+    <hodnoceni>3.87</hodnoceni>
+    <pocet_stran>232</pocet_stran>
+    <popis>Říká se, že žijeme v době informačního věku. Atributy připisované informačnímu věku bývají technologie, počítače, digitalizace, digitální dálnice, informace kdykoli, kdekoli, komukoli na dosah ruky. Jedná se však skutečně o informace, nebo jen o terabajty?
+    </popis>
+  </kniha>
+
+  <kniha id="4" druh_textu="poezie">
+    <nazev>
+      <cesky>Tyranie okamžiku</cesky>
+      <original>Tyranny of the moment</original>
+    </nazev>
+    <autor narodnost="N" rok_narozeni="1962">
+      <krestni_jmeno>Thomas Hylland</krestni_jmeno>
+      <prijmeni>Eriksen</prijmeni>
+    </autor>
+    <rok_vydani>2001</rok_vydani>
+    <zanr>Literarni fikce</zanr>
+    <hodnoceni>4.28</hodnoceni>
+    <pocet_stran>168</pocet_stran>
+    <popis>Také si lámete hlavu nad tím, proč musíte pořád odkládat zásadní a průlomové projekty, zatímco zvládat každodenní agendu se vám daří jen s nasazením všech sil?
+      A koho by před čtvrtstoletím napadlo, že všechny úžasné technologie vynalezené k úspoře času povedou nezadržitelně k tomu, že budeme mít nevyvratitelný pocit, že času máme stále méně?
+      Co rozumíme taylorizací rodinného života? Proč rychlý čas v konfrontaci s pomalým vždy vítězí? A co mají tyto jevy společného s tzv. vyhořením?
+      Tyto otázky rozebírá Tyranie okamžiku - originální komentář odborníka v oboru sociální antropologie, formulovaný s vtipem a nadhledem. Nudit se nebude nikdo, kdo se zamýšlí nad zákonitostmi naší epochy a vývojem informační společnosti.
+    </popis>
+  </kniha>
+
+
+  <kniha id="5" druh_textu="poezie">
+    <nazev>
+      <cesky>Informační systémy a technologie</cesky>
+      <original>Informační systémy a technologie</original>
+    </nazev>
+    <autor narodnost="CZ" rok_narozeni="1969">
+      <krestni_jmeno>Jan</krestni_jmeno>
+      <prijmeni>Pour</prijmeni>
+    </autor>
+    <rok_vydani>2006</rok_vydani>
+    <zanr>Literarni fikce</zanr>
+    <hodnoceni>4.05</hodnoceni>
+    <pocet_stran>496</pocet_stran>
+    <popis>Aplikovaná informatika významně ovlivňuje úspěšnost podniku na trhu. Tato publikace proto odpovídá potřebě poskytnout manažerům, obchodníkům i pracovníkům administrativy komplexní pohled na aplikační potenciál současných informačních systémů a technologií.Orientuje se primárně na to, co informatika může nabídnout pro vlastní řízení firem, řízení jejich vztahů k obchodním partnerům, kde jsou její zdroje pro dynamizaci podnikového řízení a podnikatelských aktivit.</popis>
+  </kniha>
+
+  <kniha id="6" druh_textu="próza">
+    <nazev>
+      <cesky>Psycho</cesky>
+      <original>Software Configuration Management</original>
+    </nazev>
+    <autor narodnost="US" rok_narozeni="1957">
+      <krestni_jmeno>Reidar</krestni_jmeno>
+      <prijmeni>Conradi</prijmeni>
+    </autor>
+    <rok_vydani>1992</rok_vydani>
+    <zanr>Literarni fikce</zanr>
+    <hodnoceni>4.11</hodnoceni>
+    <pocet_stran>180</pocet_stran>
+    <popis>Klasický thriller, jenž proslavil Alfred Hitchcock svým filmem. Když před sebou Mary Craneová, která prchá poté, co ukradla čtyřicet tisíc dolarů, spatří uprostřed bouře Batesův motel, má pocit, že byla právě zachráněna. Pokoje jsou sice mírně zatuchlé, ale jinak čisté. Norman Bates, který motel vede, jí připadá jako příjemný muž. Byť možná trochu divný. Pak se ale Mary setkává s Normanovou matkou. A s velkým řeznickým nožem. Noční můra začíná.</popis>
+  </kniha>
+
+
+
+
+
+  <kniha id="7" druh_textu="literatura faktu">
+    <nazev>
+      <cesky>Stručná historie času</cesky>
+      <original>A Brief History of Time</original>
+    </nazev>
+    <autor narodnost="GB" rok_narozeni="1942" rok_umrti="2018">
+      <krestni_jmeno>Stephen</krestni_jmeno>
+      <prijmeni>Hawking</prijmeni>
+    </autor>
+    <rok_vydani>2007</rok_vydani>
+    <zanr>Populárně naučné</zanr>
+    <hodnoceni>4.16</hodnoceni>
+    <pocet_stran>210</pocet_stran>
+    <popis>Populárně vědecká publikace anglického fyzika vysvětluje vznik a podstatu vesmíru, problematiku času a prostoru, teorii černých děr a další otázky.</popis>
+  </kniha>
+
+  <kniha id="8" druh_textu="próza">
+    <nazev>
+      <cesky>Padesát odstínů šedi</cesky>
+      <original>Fifty Shades of Grey</original>
+    </nazev>
+    <autor narodnost="GB" rok_narozeni="1963">
+      <krestni_jmeno>E. L.</krestni_jmeno>
+      <prijmeni>James</prijmeni>
+    </autor>
+    <rok_vydani>2011</rok_vydani>
+    <zanr>Erotika</zanr>
+    <hodnoceni>3.66</hodnoceni>
+    <pocet_stran>325</pocet_stran>
+    <popis>Když se dvaadvacetiletá studentka literatury Anastasia vydává na pohovor s mladým podnikatelem Christianem Greyem, netuší, že potká muže, který jí změní život i hodnoty. Christian je pohledný, chytrý a… tajemný. Naivní a nevinná Anastasia si začíná uvědomovat, že přes jeho skrývaná tajemství jím začíná být úplně posedlá. Ale ani Christian není vůči její kráse, šarmu a charakteru imunní a připouští, že on po ní také touží – ovšem za vlastních, specifických podmínek…
+    </popis>
+  </kniha>
+
+  <kniha id="9" druh_textu="próza">
+    <nazev>
+      <cesky>1984</cesky>
+      <original>Nineteen Eighty-Four</original>
+    </nazev>
+    <autor narodnost="GB" rok_narozeni="1903" rok_umrti="1950">
+      <krestni_jmeno>George</krestni_jmeno>
+      <prijmeni>Orwell</prijmeni>
+    </autor>
+    <rok_vydani>1949</rok_vydani>
+    <zanr>Sci-fi</zanr>
+    <hodnoceni>4.17</hodnoceni>
+    <pocet_stran>280</pocet_stran>
+    <popis>1984, dnes již klasické dílo antiutopického žánru, je bezesporu jedním z nejpozoruhodnějších románů 20. století a brilantní analýzou všech totalitárních systémů. "Antiutopie" má i svého "antihrdinu": je jím Winston Smith, obyčejný, ne příliš statečný člověk, který si nepřeje nic světoborného: chce jen poznat skutečnou, ne zmanipulovanou podobu minulosti, věřit tomu, co vidí na vlastní oči a mít svobodu tvrdit, že dva a dva jsou čtyři. Tyto elementární nároky jsou však přímým ohrožením moci, postavené na lži, a proto je Winstonova vzpoura proti obludnému organismu, jehož je nepatrnou buňkou, předem odsouzená k nezdaru. Přesto mu autor vkládá do úst jistou naději, působivější o to, že vyslovenou v mučírně: "Nějak už vám to selže, něco vás zdolá. Život vás zdolá." Orwell napsal svůj román v roce 1947. Na rozdíl od mnohých v té době nepodlehl euforii poválečného optimismu vyhlídek na věčný mír, a jeho dílo je proto sugestivním obrazem politické perverze, kterou končí v dějinách každé revoluční hnutí.
+    </popis>
+  </kniha>
+
+  <kniha id="10" druh_textu="drama">
+    <nazev>
+      <cesky>Višňový sad</cesky>
+      <original>Višňovyj sad</original>
+    </nazev>
+    <autor narodnost="RU" rok_narozeni="1860" rok_umrti="1904">
+      <krestni_jmeno>Anton Pavlovič</krestni_jmeno>
+      <prijmeni>Čechov</prijmeni>
+    </autor>
+    <rok_vydani>1904</rok_vydani>
+    <zanr>Komedie</zanr>
+    <hodnoceni>3.67</hodnoceni>
+    <pocet_stran>80</pocet_stran>
+    <popis>Višňový sad má jednoduchou základní situaci: panství statkářky Raněvské je beznadějně zadluženo a nelze je zachránit. Buď musí být prodáno v dražbě nebo je možné získat daleko více peněz prodejem památného a krásného višňového sadu a jeho rozparcelováním na pozemky pro stavby letních sídel pro obyvatele města.
+    </popis>
+  </kniha>
+
+  <kniha id="11" druh_textu="poezie">
+    <nazev>
+      <cesky>Květy zla</cesky>
+      <original>Les Fleurs du mal </original>
+    </nazev>
+    <autor narodnost="FR" rok_narozeni="1821" rok_umrti="1867">
+      <krestni_jmeno>Charles</krestni_jmeno>
+      <prijmeni>Baudelaire</prijmeni>
+    </autor>
+    <rok_vydani>1857</rok_vydani>
+    <zanr>Prokletí básníci</zanr>
+    <hodnoceni>4.26</hodnoceni>
+    <pocet_stran>380</pocet_stran>
+    <popis>Kniha obsahuje celkem šest částí, celkem 145 básní. Vůbec nejslavnější a nejrozsáhlejší z nich je 1. oddíl nazvaný Splín a ideál, tyto básně vypovídají o poslání, umění nebo o postavení umělce, hovoří také o ženách, které autor současně miloval i nenáviděl, protože ho přitahovaly i odpuzovaly, tak se v básních střídá milostná touha a krutá bezcitnost.
+    </popis>
+  </kniha>
+
+  <kniha id="12" druh_textu="literatura faktu">
+    <nazev>
+      <cesky>Stručná historie času</cesky>
+      <original>A Brief History of Time</original>
+    </nazev>
+    <autor narodnost="GB" rok_narozeni="1942" rok_umrti="2018">
+      <krestni_jmeno>Stephen</krestni_jmeno>
+      <prijmeni>Hawking</prijmeni>
+    </autor>
+    <rok_vydani>2007</rok_vydani>
+    <zanr>Populárně naučné</zanr>
+    <hodnoceni>4.16</hodnoceni>
+    <pocet_stran>200</pocet_stran>
+    <popis>Populárně vědecká publikace anglického fyzika vysvětluje vznik a podstatu vesmíru, problematiku času a prostoru, teorii černých děr a další otázky.</popis>
+  </kniha>
+
+  <kniha id="13" druh_textu="poezie">
+    <nazev>
+      <cesky>Informační systémy a technologie</cesky>
+      <original>Informační systémy a technologie</original>
+    </nazev>
+    <autor narodnost="CZ" rok_narozeni="1969">
+      <krestni_jmeno>Jan</krestni_jmeno>
+      <prijmeni>Pour</prijmeni>
+    </autor>
+    <rok_vydani>2006</rok_vydani>
+    <zanr>Literarni fikce</zanr>
+    <hodnoceni>4.05</hodnoceni>
+    <pocet_stran>496</pocet_stran>
+    <popis>Aplikovaná informatika významně ovlivňuje úspěšnost podniku na trhu. Tato publikace proto odpovídá potřebě poskytnout manažerům, obchodníkům i pracovníkům administrativy komplexní pohled na aplikační potenciál současných informačních systémů a technologií.Orientuje se primárně na to, co informatika může nabídnout pro vlastní řízení firem, řízení jejich vztahů k obchodním partnerům, kde jsou její zdroje pro dynamizaci podnikového řízení a podnikatelských aktivit.</popis>
+  </kniha>
+
+  <kniha id="14" druh_textu="drama">
+    <nazev>
+      <cesky>Manéž informačního věku</cesky>
+      <original>Manéž informačního věku</original>
+    </nazev>
+    <autor narodnost="CZ" rok_narozeni="1979" rok_umrti="1938">
+      <krestni_jmeno>Ivan</krestni_jmeno>
+      <prijmeni>Pilný</prijmeni>
+    </autor>
+    <rok_vydani>2014</rok_vydani>
+    <zanr>Literarni fikce</zanr>
+    <hodnoceni>3.87</hodnoceni>
+    <pocet_stran>232</pocet_stran>
+    <popis>Říká se, že žijeme v době informačního věku. Atributy připisované informačnímu věku bývají technologie, počítače, digitalizace, digitální dálnice, informace kdykoli, kdekoli, komukoli na dosah ruky. Jedná se však skutečně o informace, nebo jen o terabajty?
+    </popis>
+  </kniha>
+
+</knihovna>
