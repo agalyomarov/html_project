@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" >
-<xs:element name="knihovna">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="knihovna">
     <xs:complexType>
-    <xs:sequence>
+      <xs:sequence>
         <xs:element name="kniha" minOccurs="0" maxOccurs="unbounded">
-            <xs:complexType>
+          <xs:complexType>
             <xs:sequence>
-                
-                <xs:element name="nazev">
-                    <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="cesky" type="xs:string"/>
-                        <xs:element name="original" type="xs:string"/>
-                    </xs:sequence>
-                    </xs:complexType> 
-                </xs:element> 
-                                  
-                <xs:element name="autor">
-                    <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="krestni_jmeno" type="xs:string" minOccurs="0"/>
-                        <xs:element name="prijmeni" type="xs:string"/>
-                    </xs:sequence>
-                    <xs:attribute name="narodnost" type="xs:string"/>
-                    <xs:attribute name="rok_narozeni" type="xs:gYear"/>
-                    <xs:attribute name="rok_umrti" type="xs:gYear"/>                    
-                    </xs:complexType>
-                </xs:element>
-                
-                <xs:element name="rok_vydani" type="xs:gYear"/>
-                
-                <xs:element name="zanr" type="xs:string"/>
-                
-                <xs:element name="hodnoceni">
-                    <xs:simpleType>
-                    <xs:restriction base="xs:decimal">
-                        <xs:minInclusive value="1"/>
-                        <xs:maxInclusive value="5"/>
-                    </xs:restriction>
-                    </xs:simpleType>
-                </xs:element>
-                
-                <xs:element name="pocet_stran" type="xs:integer"/>
-                
-                <xs:element name="popis" type="xs:string"/>
-                
-            </xs:sequence> 
-             
-            <xs:attribute name="id" type="xs:nonNegativeInteger" use="required"/>
-            <xs:attribute name="druh_textu">
+
+              <xs:element name="nazev">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="cesky" type="xs:string" />
+                    <xs:element name="original" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="autor">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="krestni_jmeno" type="xs:string" minOccurs="0" />
+                    <xs:element name="prijmeni" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="narodnost" type="xs:string" />
+                  <xs:attribute name="rok_narozeni" type="xs:gYear" />
+                  <xs:attribute name="rok_umrti" type="xs:gYear" />
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="rok_vydani" type="xs:gYear" />
+
+              <xs:element name="zanr" type="xs:string" />
+
+              <xs:element name="hodnoceni">
                 <xs:simpleType>
+                  <xs:restriction base="xs:decimal">
+                    <xs:minInclusive value="1" />
+                    <xs:maxInclusive value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+
+              <xs:element name="pocet_stran" type="xs:integer" />
+
+              <xs:element name="popis" type="xs:string" />
+
+            </xs:sequence>
+
+            <xs:attribute name="id" type="xs:nonNegativeInteger" use="required" />
+            <xs:attribute name="druh_textu">
+              <xs:simpleType>
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="próza"/>
-                    <xs:enumeration value="poezie"/>
-                    <xs:enumeration value="drama"/>
-                    <xs:enumeration value="literatura faktu"/>
-                    <xs:enumeration value="komiks"/>
+                  <xs:enumeration value="próza" />
+                  <xs:enumeration value="poezie" />
+                  <xs:enumeration value="drama" />
+                  <xs:enumeration value="literatura faktu" />
+                  <xs:enumeration value="komiks" />
                 </xs:restriction>
-                </xs:simpleType> 
-            </xs:attribute> 
-                   
-            </xs:complexType>
+              </xs:simpleType>
+            </xs:attribute>
+
+          </xs:complexType>
         </xs:element>
-    </xs:sequence>           
+      </xs:sequence>
     </xs:complexType>
-</xs:element>       
+  </xs:element>
 </xs:schema>

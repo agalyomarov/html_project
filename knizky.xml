@@ -124,9 +124,6 @@
   </kniha>
 
 
-
-
-
   <kniha id="7" druh_textu="literatura faktu">
     <nazev>
       <cesky>Stručná historie času</cesky>
@@ -210,54 +207,4 @@
     <popis>Kniha obsahuje celkem šest částí, celkem 145 básní. Vůbec nejslavnější a nejrozsáhlejší z nich je 1. oddíl nazvaný Splín a ideál, tyto básně vypovídají o poslání, umění nebo o postavení umělce, hovoří také o ženách, které autor současně miloval i nenáviděl, protože ho přitahovaly i odpuzovaly, tak se v básních střídá milostná touha a krutá bezcitnost.
     </popis>
   </kniha>
-
-  <kniha id="12" druh_textu="literatura faktu">
-    <nazev>
-      <cesky>Stručná historie času</cesky>
-      <original>A Brief History of Time</original>
-    </nazev>
-    <autor narodnost="GB" rok_narozeni="1942" rok_umrti="2018">
-      <krestni_jmeno>Stephen</krestni_jmeno>
-      <prijmeni>Hawking</prijmeni>
-    </autor>
-    <rok_vydani>2007</rok_vydani>
-    <zanr>Populárně naučné</zanr>
-    <hodnoceni>4.16</hodnoceni>
-    <pocet_stran>200</pocet_stran>
-    <popis>Populárně vědecká publikace anglického fyzika vysvětluje vznik a podstatu vesmíru, problematiku času a prostoru, teorii černých děr a další otázky.</popis>
-  </kniha>
-
-  <kniha id="13" druh_textu="poezie">
-    <nazev>
-      <cesky>Informační systémy a technologie</cesky>
-      <original>Informační systémy a technologie</original>
-    </nazev>
-    <autor narodnost="CZ" rok_narozeni="1969">
-      <krestni_jmeno>Jan</krestni_jmeno>
-      <prijmeni>Pour</prijmeni>
-    </autor>
-    <rok_vydani>2006</rok_vydani>
-    <zanr>Literarni fikce</zanr>
-    <hodnoceni>4.05</hodnoceni>
-    <pocet_stran>496</pocet_stran>
-    <popis>Aplikovaná informatika významně ovlivňuje úspěšnost podniku na trhu. Tato publikace proto odpovídá potřebě poskytnout manažerům, obchodníkům i pracovníkům administrativy komplexní pohled na aplikační potenciál současných informačních systémů a technologií.Orientuje se primárně na to, co informatika může nabídnout pro vlastní řízení firem, řízení jejich vztahů k obchodním partnerům, kde jsou její zdroje pro dynamizaci podnikového řízení a podnikatelských aktivit.</popis>
-  </kniha>
-
-  <kniha id="14" druh_textu="drama">
-    <nazev>
-      <cesky>Manéž informačního věku</cesky>
-      <original>Manéž informačního věku</original>
-    </nazev>
-    <autor narodnost="CZ" rok_narozeni="1979" rok_umrti="1938">
-      <krestni_jmeno>Ivan</krestni_jmeno>
-      <prijmeni>Pilný</prijmeni>
-    </autor>
-    <rok_vydani>2014</rok_vydani>
-    <zanr>Literarni fikce</zanr>
-    <hodnoceni>3.87</hodnoceni>
-    <pocet_stran>232</pocet_stran>
-    <popis>Říká se, že žijeme v době informačního věku. Atributy připisované informačnímu věku bývají technologie, počítače, digitalizace, digitální dálnice, informace kdykoli, kdekoli, komukoli na dosah ruky. Jedná se však skutečně o informace, nebo jen o terabajty?
-    </popis>
-  </kniha>
-
 </knihovna>

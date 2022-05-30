@@ -1,116 +1,129 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box; /* ohledně responzivního designu */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* ohledně responzivního designu */
 }
 
-/***** REUSABLE *****/
-.row{
-    max-width: 1300px; /* šířka dosahuje max 1300 px - přizpusobuje se*/
+
+/***** Základní třídy *****/
+
+.standart_row {
+    max-width: 1300px;
+    /*maximální šířka bloku 1300px*/
     margin: 0 auto;
+    /*blokové zarovnání*/
 }
 
-.heading-main h2{
+section h2 {
     text-align: center;
-   /* margin-top: 40px;*/
+    /*zarovnání textu na střed*/
     font-size: 30px;
 }
-.empty-space{
+
+.simple_space {
     height: 50px;
-    
 }
 
-.heading-main h2:after {
+section h2:after {
     content: "";
-    display: block;     /*h2 je blok a chceme mít za tím taky blok*/
+    display: block;
+    /*Spodní blok po h2*/
     width: 150px;
     border-bottom: 2px solid #dc4f00;
     margin: 20px auto;
-}   
-
-
-/*****HLAVIČKA*****/
-
-header{
-	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/images/pizza.jpg ");		
-	background-size: cover;						/**/
-	height: 100vh;								/*100% viewport*/
-    background-attachment: fixed;
-    
 }
-.nav-background{
+
+
+/*****Záhlaví webu*****/
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/pizza.jpg ");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.header-background {
     position: fixed;
     width: 100%;
     height: 50px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 50;
-    border-bottom: 2px solid #dc4f00 ;
+    border-bottom: 2px solid #dc4f00;
 }
-/*Logo*/
-#logo img{
-    width: 200px;    
+
+
+/*Logo webu*/
+
+#logo_webu img {
+    width: 200px;
     position: absolute;
     top: 10%;
     left: 50%;
-    transform: translate(-50%, 0%);     
-    
+    transform: translate(-50%, 0%);
 }
 
+
 /** Navigace **/
+
 nav {
-    position: fixed;    
+    position: fixed;
+    /*Prvek navigace má frikovanou pozici se z-indexem 100. To znamená, že bude viditelný nad všemi prvky.*/
     float: right;
     margin-top: -1px;
     margin-left: 25%;
-    z-index: 100; /* chci to mít viditelné nad obrázky - z-index 0 - pod tím*/
-    
+    z-index: 100;
 }
 
-.navigace {
+.sidebar {
     padding-left: 100px;
 }
-nav a{
-    
+
+nav a {
     padding: 0px 5px;
 }
-
 
 nav a:link,
 nav a:visited {
     color: #fff;
     font-size: 35px;
-    text-decoration: none; 
-    border-bottom: 2px solid transparent;      /*průhledný rámeček dole*/
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
 }
 
 nav a:hover,
 nav a:active {
-    
     border-bottom: 2px solid #dc4f00;
-    transition: border-bottom 1.3s;         /*přechod na barvu*/
-
+    transition: border-bottom 1.3s;
+    /*hladký přechod na jinou barvu pro spodní rám*/
 }
 
-.header-text{
+.header-text {
     position: absolute;
     top: 50%;
     left: 38%;
-    transform: translate(-50%,-50%);        /*   zarovnání na střed stránky*/   
+    width: 450px;
+    left: calc(50% - 225px);
+    /*  zarovnání středového prvku pomocí odečítání*/
 }
 
-
-
-
-.header-text h1{
+.header-text h1 {
     color: #fff;
     font-size: 35px;
-    text-transform: uppercase;        /* transform na velká písmena*/
+    text-transform: uppercase;
     letter-spacing: 2.2px;
+    /*Vzdálenost mezi písmeny*/
     word-spacing: 3px;
+    /*Vzdálenost mezi slovy*/
 }
-/*****Tlačítka v hlavičce *****/
-.btn{    
-    display: inline-block;              /*nastavení tlačítek */
+
+
+/*****Prvky na záhlaví *****/
+
+.btn-full,
+.btn-empty {
+    display: inline-block;
     color: bisque;
     text-decoration: none;
     font-size: 20px;
@@ -119,17 +132,16 @@ nav a:active {
     margin-top: 10px;
     padding: 5px 10px;
     letter-spacing: 1px;
-    
     text-align: center;
 }
+
 .btn-full:link,
 .btn-full:visited {
     background: #dc4f00;
-    
 }
 
 .btn-full:hover,
-.btn-full:active {                     /*link - nekliknuto na odkaz, visited - již kliknuto, active: ve chvíli kliknutí, hover - najetí kurzoru myší na odkaz*/
+.btn-full:active {
     transition: background 0.5s;
     background: white;
     color: black;
@@ -137,9 +149,8 @@ nav a:active {
 
 .btn-empty:link,
 .btn-empty:visited {
-    margin-left: 10px;    
+    margin-left: 10px;
 }
-
 
 .btn-empty:hover,
 .btn-empty:active {
@@ -149,15 +160,14 @@ nav a:active {
 }
 
 
-
 /***** Formulář *****/
 
-.contact-form{
+.form-contact {
     max-width: 700px;
     text-align: center;
 }
 
-.contact-form input{
+.form-contact input {
     width: 80%;
     margin: 5px 0px;
     padding: 7px;
@@ -167,17 +177,18 @@ nav a:active {
 }
 
 input[type="submit"] {
-    background: #d67e4d; 
+    background: #d67e4d;
     color: #fff;
     font-size: 20px;
 }
+
 input[type="submit"]:hover {
     transition: background-color 0.7s;
     background-color: rgba(23, 242, 132, 0.86);
     color: #000;
-    
 }
-.contact-form textarea{
+
+.form-contact textarea {
     width: 80%;
     margin: 5px 0px;
     padding: 7px;
@@ -187,25 +198,26 @@ input[type="submit"]:hover {
     font-family: arial;
 }
 
+
 /***** Patička *****/
+
 .footer-page {
     background: #d67e4d;
     margin-top: 30px;
     color: #fff;
 }
+
 .footer-text {
     text-align: center;
     margin: 10px 0px;
 }
+
 .social {
     text-align: center;
     margin: 10px 0px;
-    
 }
-    
 
-
-.social p{
+.social p {
     display: inline;
     margin-right: 20px;
 }
@@ -216,33 +228,25 @@ input[type="submit"]:hover {
     color: #fff;
     font-size: 25px;
 }
+
 .social p a:hover,
 .social p a:active {
     color: #000;
-   
     background: #fff;
     border-radius: 10px;
 }
 
 
-
-
-
-    
 /***** Stop Floating *****/
-.clearfix {zoom: 1}
+
+.clearfix {
+    zoom: 1;
+}
+
 .clearfix:after {
     content: ".";
     clear: both;
     display: block;
     height: 0;
     visibility: hidden;
-    
 }
-
-  
-/* Responzivita - převedeme šířky na procenta, Media queries*/
-    
-    
-    
-    
